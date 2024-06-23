@@ -37,5 +37,6 @@
 }
 
 .tw-followCard-button:hover {
-    background-color: #ddd;
+    background-color: #09f;
+    transition: .3s ease background-color;
 }
