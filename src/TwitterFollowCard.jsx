@@ -5,7 +5,7 @@ export function TwitterFollowCard ({children, userName, initialIsFollowing }) {
    
 
 
-    const text = isFollowing ? 'Siguiendo' : 'Seguir'
+    const text = isFollowing ? 'Following' : 'Follow'
     const buttonClassName = isFollowing 
     ? 'tw-followCard-button is-following'
     : 'tw-followCard-button'
